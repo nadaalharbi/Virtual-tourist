@@ -122,8 +122,9 @@ class PhotosAlbumViewController: UIViewController, MKMapViewDelegate, NSFetchedR
                 self.updateLoadingStatus("Error occured while loading")
             }
             for photoUrl in photoUrls! {
-                self.updateLoadingStatus("")
                 self.activityIndicator.stopAnimating()
+                self.updateLoadingStatus("")
+
                 let photo = Photo(context: self.dataController.viewContext)
                 photo.url = photoUrl
                 photo.pin = self.pin

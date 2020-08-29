@@ -47,7 +47,7 @@ extension PhotosAlbumViewController: UICollectionViewDataSource, UICollectionVie
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath)-> CGSize {
         let bounds = collectionView.bounds
-        return CGSize(width: (bounds.width/2)-4, height: bounds.height)
+        return CGSize(width: (bounds.width/2)-4, height: bounds.height/5)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {

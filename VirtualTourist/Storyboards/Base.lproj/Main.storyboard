@@ -79,7 +79,7 @@
                                 <rect key="frame" x="0.0" y="198" width="414" height="667"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="3yA-11-tpo">
-                                    <size key="itemSize" width="150" height="150"/>
+                                    <size key="itemSize" width="190" height="170"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -111,32 +111,28 @@
                                 </scrollView>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="UmF-61-XQm" customClass="CollectionViewCell" customModule="VirtualTourist" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="190" height="170"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="926-YD-6cB">
-                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" id="926-YD-6cB">
+                                            <rect key="frame" x="0.0" y="0.0" width="190" height="170"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="33G-Yo-3gJ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="170" id="NGP-HR-6sE"/>
-                                                        <constraint firstAttribute="width" constant="170" id="aD2-8j-5xq"/>
-                                                    </constraints>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="33G-Yo-3gJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="191" height="171"/>
                                                 </imageView>
                                                 <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="vEc-rf-sdX">
-                                                    <rect key="frame" x="65" y="65" width="20" height="20"/>
+                                                    <rect key="frame" x="81" y="75" width="20" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </activityIndicatorView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="33G-Yo-3gJ" firstAttribute="centerX" secondItem="926-YD-6cB" secondAttribute="centerX" id="4Dr-4g-rwC"/>
-                                                <constraint firstItem="33G-Yo-3gJ" firstAttribute="centerY" secondItem="926-YD-6cB" secondAttribute="centerY" id="OLx-pj-lm3"/>
-                                                <constraint firstItem="33G-Yo-3gJ" firstAttribute="leading" secondItem="926-YD-6cB" secondAttribute="leading" id="dx0-g9-vpI"/>
-                                                <constraint firstItem="33G-Yo-3gJ" firstAttribute="top" secondItem="926-YD-6cB" secondAttribute="top" id="ofW-Ob-lZF"/>
+                                                <constraint firstItem="33G-Yo-3gJ" firstAttribute="leading" secondItem="926-YD-6cB" secondAttribute="leading" id="ZkB-Qt-kne"/>
+                                                <constraint firstAttribute="trailing" secondItem="33G-Yo-3gJ" secondAttribute="trailing" constant="-22" id="hTa-4z-Jn9"/>
+                                                <constraint firstAttribute="bottom" secondItem="33G-Yo-3gJ" secondAttribute="bottom" constant="-29" id="rtm-Kd-D2z"/>
+                                                <constraint firstItem="33G-Yo-3gJ" firstAttribute="top" secondItem="926-YD-6cB" secondAttribute="top" id="sTm-qx-qc1"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="150" height="150"/>
+                                        <size key="customSize" width="190" height="170"/>
                                         <connections>
                                             <outlet property="activityIndicator" destination="vEc-rf-sdX" id="zX0-Zy-PB4"/>
                                             <outlet property="imageView" destination="33G-Yo-3gJ" id="NtG-oL-fpD"/>
