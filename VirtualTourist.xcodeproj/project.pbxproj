@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		111BDEB624DFA93C0023A9EF /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BDEB524DFA93C0023A9EF /* DataController.swift */; };
 		112632EE24EB918800D7D4D7 /* PhotosAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112632ED24EB918800D7D4D7 /* PhotosAlbumViewController.swift */; };
+		1150061624F9F1BE00F9D9F2 /* photoAlbum2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1150061324F9F1BD00F9D9F2 /* photoAlbum2.png */; };
+		1150061724F9F1BE00F9D9F2 /* mapView.png in Resources */ = {isa = PBXBuildFile; fileRef = 1150061424F9F1BD00F9D9F2 /* mapView.png */; };
+		1150061824F9F1BE00F9D9F2 /* photoAlbum1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1150061524F9F1BE00F9D9F2 /* photoAlbum1.png */; };
 		1153C89624DF313300ADCBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C89524DF313300ADCBCC /* AppDelegate.swift */; };
 		1153C89824DF313300ADCBCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C89724DF313300ADCBCC /* SceneDelegate.swift */; };
 		1153C89A24DF313300ADCBCC /* TravelLocationsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C89924DF313300ADCBCC /* TravelLocationsMapView.swift */; };
@@ -49,6 +52,9 @@
 		111BDEB524DFA93C0023A9EF /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		112632ED24EB918800D7D4D7 /* PhotosAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosAlbumViewController.swift; sourceTree = "<group>"; };
 		113F7B58E193EF02FCEDEC78 /* Pods-VirtualTourist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTourist.release.xcconfig"; path = "Target Support Files/Pods-VirtualTourist/Pods-VirtualTourist.release.xcconfig"; sourceTree = "<group>"; };
+		1150061324F9F1BD00F9D9F2 /* photoAlbum2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoAlbum2.png; sourceTree = "<group>"; };
+		1150061424F9F1BD00F9D9F2 /* mapView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapView.png; sourceTree = "<group>"; };
+		1150061524F9F1BE00F9D9F2 /* photoAlbum1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoAlbum1.png; sourceTree = "<group>"; };
 		1153C89224DF313300ADCBCC /* VirtualTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1153C89524DF313300ADCBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1153C89724DF313300ADCBCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,9 +109,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1150061224F9F19500F9D9F2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1150061424F9F1BD00F9D9F2 /* mapView.png */,
+				1150061524F9F1BE00F9D9F2 /* photoAlbum1.png */,
+				1150061324F9F1BD00F9D9F2 /* photoAlbum2.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		1153C88924DF313300ADCBCC = {
 			isa = PBXGroup;
 			children = (
+				1150061224F9F19500F9D9F2 /* images */,
 				1153C89424DF313300ADCBCC /* VirtualTourist */,
 				1153C8AE24DF313D00ADCBCC /* VirtualTouristTests */,
 				1153C8B924DF313D00ADCBCC /* VirtualTouristUITests */,
@@ -335,8 +352,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1150061824F9F1BE00F9D9F2 /* photoAlbum1.png in Resources */,
+				1150061724F9F1BE00F9D9F2 /* mapView.png in Resources */,
 				1153C8A524DF313C00ADCBCC /* LaunchScreen.storyboard in Resources */,
 				1153C8A224DF313C00ADCBCC /* Assets.xcassets in Resources */,
+				1150061624F9F1BE00F9D9F2 /* photoAlbum2.png in Resources */,
 				1153C89D24DF313300ADCBCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

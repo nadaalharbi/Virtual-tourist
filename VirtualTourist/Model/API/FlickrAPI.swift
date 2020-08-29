@@ -16,7 +16,7 @@ class FlickrAPI {
     }
     
     static func getRequestLocationPhotos(lat: Double, lon: Double, tags:String = "", completion: @escaping (_ error: Error?, [String]?) -> Void) {
-        let url = "https://api.flickr.com/services/rest/?&method=\(FlickrAPI.FlickrRequestKeys.METHOD)&api_key=\(FlickrAPI.FlickrRequestKeys.API_KEY)&lat=\(lat)&lon=\(lon)&format=json&nojsoncallback=1&page=\((1...10).randomElement() ?? 1)&per_page=\(FlickrAPI.FlickrRequestKeys.PER_PAGE)&extras=url_m"
+        let url = "https://api.flickr.com/services/rest/?&method=\(FlickrAPI.FlickrRequestKeys.METHOD)&api_key=\(FlickrAPI.FlickrRequestKeys.API_KEY)&lat=\(lat)&lon=\(lon)&format=json&nojsoncallback=1&page=\((1...20).randomElement() ?? 1)&per_page=\(FlickrAPI.FlickrRequestKeys.PER_PAGE)&extras=url_m"
         
         let request = AF.request(url)
         request.responseJSON { (response) in
