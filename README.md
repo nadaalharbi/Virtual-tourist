@@ -5,7 +5,7 @@ You can also delete a pin from your map.
 This project is build for my iOS Nanodegree program - Udacity
 
 ## Screenshot 
-<img src="https://github.com/nadaalharbi/Virtual-tourist/blob/master/images/mapView.png" width="250" height="450">     <img src="https://github.com/nadaalharbi/Virtual-tourist/blob/master/images/photoAlbum2.png" width="250" height="450">
+<img src="https://github.com/nadaalharbi/Virtual-tourist/blob/master/images/splashView.png" width="250" height="450">              <img src="https://github.com/nadaalharbi/Virtual-tourist/blob/master/images/welcomePage.png" width="250" height="450">              <img src="https://github.com/nadaalharbi/Virtual-tourist/blob/master/images/mapPage.png" width="250" height="450">              <img src="https://github.com/nadaalharbi/Virtual-tourist/blob/master/images/photoAlbum2.png" width="250" height="450">
 ## Build
 ### Requirements
 * Xcode 11.4
