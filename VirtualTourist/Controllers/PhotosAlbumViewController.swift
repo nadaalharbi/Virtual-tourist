@@ -34,26 +34,26 @@ class PhotosAlbumViewController: UIViewController, MKMapViewDelegate, NSFetchedR
         if let photos = pin.photos, photos.count == 0 {
             loadPhotos()
         }
-        self.performUIUpdatesOnMain {
+        //self.performUIUpdatesOnMain {
             self.collectionView.reloadData()
-        }
+        //}
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         setupFetchedResultsController()
-        self.performUIUpdatesOnMain {
+        //self.performUIUpdatesOnMain {
             self.collectionView.reloadData()
-        }
+        //}
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(false, animated: true)
         setupFetchedResultsController()
-        self.performUIUpdatesOnMain {
+        //self.performUIUpdatesOnMain {
             self.collectionView.reloadData()
-        }
+        //}
     }
     
     fileprivate func setupFetchedResultsController() {
@@ -75,9 +75,9 @@ class PhotosAlbumViewController: UIViewController, MKMapViewDelegate, NSFetchedR
         } catch {
             fatalError("The fetch could not be performed: \(error.localizedDescription)")
         }
-        self.performUIUpdatesOnMain {
+       // self.performUIUpdatesOnMain {
             self.collectionView.reloadData()
-        }
+        //}
     }
     
     fileprivate func setupSmallMap() {
@@ -124,7 +124,7 @@ class PhotosAlbumViewController: UIViewController, MKMapViewDelegate, NSFetchedR
             for photoUrl in photoUrls! {
                 self.activityIndicator.stopAnimating()
                 self.updateLoadingStatus("")
-
+                
                 let photo = Photo(context: self.dataController.viewContext)
                 photo.url = photoUrl
                 photo.pin = self.pin
@@ -132,9 +132,9 @@ class PhotosAlbumViewController: UIViewController, MKMapViewDelegate, NSFetchedR
                 try? self.dataController.viewContext.save()
             }
         }
-        DispatchQueue.main.async {
+        //DispatchQueue.main.async {
             self.collectionView.reloadData()
-        }
+        //}
     }
     
     func performUIUpdatesOnMain(_ updates: @escaping () -> Void) {
@@ -170,6 +170,7 @@ class PhotosAlbumViewController: UIViewController, MKMapViewDelegate, NSFetchedR
             break
         case .update:
             updatedIndexPaths.append(indexPath!)
+            print("entered update case")
             break
         case .move:
             debugPrint("Move an item. We don't expect to see this in this app.")

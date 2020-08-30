@@ -1,7 +1,6 @@
 import UIKit
 import Kingfisher
 
-private let reuseIdentifier = "Cell"
 
 extension PhotosAlbumViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -9,7 +8,7 @@ extension PhotosAlbumViewController: UICollectionViewDataSource, UICollectionVie
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! CollectionViewCell
         cell.activityIndicator.startAnimating()
         
         let photo = fetchedResultsController.object(at: indexPath)
