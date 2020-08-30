@@ -1,5 +1,7 @@
 # Virtual-tourist
-Virtual Tourist in an app to show a map with ability to add pins anywher and load amazing photos of the tapped location - pin!
+Virtual Tourist or MapN in an app that shows a map with ability to serach for a place or press anywhere on the map to add the pin and enjoy watching amazing photos of the tapped location - pin!
+You can also delete a pin from your map.
+
 This project is build for my iOS Nanodegree program - Udacity
 
 ## Screenshot 
@@ -23,12 +25,13 @@ pod install
 4. Open `VirtualTourist.xcworkspace` 
 
 ## How to use the app
-- Launch the app usingiOS Simulator
-- A map is shown where you can long press the location anywhere you want, a red pin will add automatically.
-- You can as many pins as you want in different places on the map.
+- Launch the app using iOS Simulator
+- A map is shown where you can search for location or long press the anywhere you want on the map then, a red pin will be added automatically.
+- You can add as many pins as you want in different places on the map.
 - Clicking on any pin to see random photos from Flickr API.
 - Tapping on any photo will remove it from the CollectionView.
 - To load new set of photos "Collection" just click on the "New Collection".
+- Clicking on Edit button will allow you to remove a pin from your map.
 - All added pins and loaded photos stored using CoreData.
 
 ## Resources
