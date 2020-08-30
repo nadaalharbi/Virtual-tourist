@@ -18,13 +18,13 @@
 		1153C89D24DF313300ADCBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1153C89B24DF313300ADCBCC /* Main.storyboard */; };
 		1153C8A024DF313300ADCBCC /* VirtualTourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1153C89E24DF313300ADCBCC /* VirtualTourist.xcdatamodeld */; };
 		1153C8A224DF313C00ADCBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1153C8A124DF313C00ADCBCC /* Assets.xcassets */; };
-		1153C8A524DF313C00ADCBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1153C8A324DF313C00ADCBCC /* LaunchScreen.storyboard */; };
 		1153C8B024DF313D00ADCBCC /* VirtualTouristTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C8AF24DF313D00ADCBCC /* VirtualTouristTests.swift */; };
 		1153C8BB24DF313D00ADCBCC /* VirtualTouristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C8BA24DF313D00ADCBCC /* VirtualTouristUITests.swift */; };
 		1153C8CE24DF458800ADCBCC /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C8CD24DF458800ADCBCC /* FlickrAPI.swift */; };
 		1153C8D124DFA70000ADCBCC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C8D024DFA70000ADCBCC /* CollectionViewCell.swift */; };
 		1179BB2C24FA10E900A5BC13 /* SearchLocationTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179BB2B24FA10E900A5BC13 /* SearchLocationTable.swift */; };
 		1193BB5624F1A9BD0035CFA9 /* PhotosAlbumViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193BB5524F1A9BD0035CFA9 /* PhotosAlbumViewController+Extension.swift */; };
+		11D74FD024FB53980004F0F7 /* SplashLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D74FCF24FB53980004F0F7 /* SplashLaunchScreen.storyboard */; };
 		1A563137F886C061B12CD1BD /* Pods_VirtualTouristTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A8137084CFD4A888D7917 /* Pods_VirtualTouristTests.framework */; };
 		1B644EABFB389D01D6F00EDC /* Pods_VirtualTourist_VirtualTouristUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BBED1B4D7D91E021183995 /* Pods_VirtualTourist_VirtualTouristUITests.framework */; };
 		D46F38D2AD4B0908C751A7B0 /* Pods_VirtualTourist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025C35CD413296506934AD27 /* Pods_VirtualTourist.framework */; };
@@ -63,7 +63,6 @@
 		1153C89C24DF313300ADCBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1153C89F24DF313300ADCBCC /* VirtualTourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualTourist.xcdatamodel; sourceTree = "<group>"; };
 		1153C8A124DF313C00ADCBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1153C8A424DF313C00ADCBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1153C8A624DF313C00ADCBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1153C8AB24DF313D00ADCBCC /* VirtualTouristTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualTouristTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1153C8AF24DF313D00ADCBCC /* VirtualTouristTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTouristTests.swift; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		1153C8D024DFA70000ADCBCC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		1179BB2B24FA10E900A5BC13 /* SearchLocationTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationTable.swift; sourceTree = "<group>"; };
 		1193BB5524F1A9BD0035CFA9 /* PhotosAlbumViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotosAlbumViewController+Extension.swift"; sourceTree = "<group>"; };
+		11D74FCF24FB53980004F0F7 /* SplashLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashLaunchScreen.storyboard; sourceTree = "<group>"; };
 		520965C748F5C7EA3F1C075A /* Pods-VirtualTouristTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTouristTests.debug.xcconfig"; path = "Target Support Files/Pods-VirtualTouristTests/Pods-VirtualTouristTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7BBED1B4D7D91E021183995 /* Pods_VirtualTourist_VirtualTouristUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualTourist_VirtualTouristUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F23A6D96C7534EA579557B /* Pods-VirtualTouristTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTouristTests.release.xcconfig"; path = "Target Support Files/Pods-VirtualTouristTests/Pods-VirtualTouristTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				1153C89B24DF313300ADCBCC /* Main.storyboard */,
-				1153C8A324DF313C00ADCBCC /* LaunchScreen.storyboard */,
+				11D74FCF24FB53980004F0F7 /* SplashLaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -356,8 +356,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1150061824F9F1BE00F9D9F2 /* photoAlbum1.png in Resources */,
+				11D74FD024FB53980004F0F7 /* SplashLaunchScreen.storyboard in Resources */,
 				1150061724F9F1BE00F9D9F2 /* mapView.png in Resources */,
-				1153C8A524DF313C00ADCBCC /* LaunchScreen.storyboard in Resources */,
 				1153C8A224DF313C00ADCBCC /* Assets.xcassets in Resources */,
 				1150061624F9F1BE00F9D9F2 /* photoAlbum2.png in Resources */,
 				1153C89D24DF313300ADCBCC /* Main.storyboard in Resources */,
@@ -539,14 +539,6 @@
 				1153C89C24DF313300ADCBCC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1153C8A324DF313C00ADCBCC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1153C8A424DF313C00ADCBCC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

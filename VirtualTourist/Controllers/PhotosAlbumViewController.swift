@@ -34,26 +34,20 @@ class PhotosAlbumViewController: UIViewController, MKMapViewDelegate, NSFetchedR
         if let photos = pin.photos, photos.count == 0 {
             loadPhotos()
         }
-        //self.performUIUpdatesOnMain {
-            self.collectionView.reloadData()
-        //}
+        self.collectionView.reloadData()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         setupFetchedResultsController()
-        //self.performUIUpdatesOnMain {
-            self.collectionView.reloadData()
-        //}
+        self.collectionView.reloadData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(false, animated: true)
         setupFetchedResultsController()
-        //self.performUIUpdatesOnMain {
-            self.collectionView.reloadData()
-        //}
+        self.collectionView.reloadData()
     }
     
     fileprivate func setupFetchedResultsController() {
@@ -75,9 +69,7 @@ class PhotosAlbumViewController: UIViewController, MKMapViewDelegate, NSFetchedR
         } catch {
             fatalError("The fetch could not be performed: \(error.localizedDescription)")
         }
-       // self.performUIUpdatesOnMain {
-            self.collectionView.reloadData()
-        //}
+        self.collectionView.reloadData()
     }
     
     fileprivate func setupSmallMap() {
@@ -170,7 +162,6 @@ class PhotosAlbumViewController: UIViewController, MKMapViewDelegate, NSFetchedR
             break
         case .update:
             updatedIndexPaths.append(indexPath!)
-            print("entered update case")
             break
         case .move:
             debugPrint("Move an item. We don't expect to see this in this app.")
