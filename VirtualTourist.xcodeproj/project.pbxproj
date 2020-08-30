@@ -10,7 +10,6 @@
 		111BDEB624DFA93C0023A9EF /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111BDEB524DFA93C0023A9EF /* DataController.swift */; };
 		112632EE24EB918800D7D4D7 /* PhotosAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112632ED24EB918800D7D4D7 /* PhotosAlbumViewController.swift */; };
 		1150061624F9F1BE00F9D9F2 /* photoAlbum2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1150061324F9F1BD00F9D9F2 /* photoAlbum2.png */; };
-		1150061824F9F1BE00F9D9F2 /* photoAlbum1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1150061524F9F1BE00F9D9F2 /* photoAlbum1.png */; };
 		1153C89624DF313300ADCBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C89524DF313300ADCBCC /* AppDelegate.swift */; };
 		1153C89824DF313300ADCBCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C89724DF313300ADCBCC /* SceneDelegate.swift */; };
 		1153C89A24DF313300ADCBCC /* TravelLocationsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1153C89924DF313300ADCBCC /* TravelLocationsMapView.swift */; };
@@ -29,6 +28,7 @@
 		11D74FD624FB5ACA0004F0F7 /* WelcomePage.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D74FD524FB5ACA0004F0F7 /* WelcomePage.png */; };
 		11D74FDA24FB5B070004F0F7 /* removePin.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D74FD924FB5B070004F0F7 /* removePin.png */; };
 		11D74FDC24FB5B150004F0F7 /* mapPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D74FDB24FB5B150004F0F7 /* mapPage.png */; };
+		11D74FDE24FB5CAB0004F0F7 /* photoAlbum1.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D74FDD24FB5CAB0004F0F7 /* photoAlbum1.png */; };
 		1A563137F886C061B12CD1BD /* Pods_VirtualTouristTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A8137084CFD4A888D7917 /* Pods_VirtualTouristTests.framework */; };
 		1B644EABFB389D01D6F00EDC /* Pods_VirtualTourist_VirtualTouristUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BBED1B4D7D91E021183995 /* Pods_VirtualTourist_VirtualTouristUITests.framework */; };
 		D46F38D2AD4B0908C751A7B0 /* Pods_VirtualTourist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025C35CD413296506934AD27 /* Pods_VirtualTourist.framework */; };
@@ -58,7 +58,6 @@
 		112632ED24EB918800D7D4D7 /* PhotosAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosAlbumViewController.swift; sourceTree = "<group>"; };
 		113F7B58E193EF02FCEDEC78 /* Pods-VirtualTourist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTourist.release.xcconfig"; path = "Target Support Files/Pods-VirtualTourist/Pods-VirtualTourist.release.xcconfig"; sourceTree = "<group>"; };
 		1150061324F9F1BD00F9D9F2 /* photoAlbum2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoAlbum2.png; sourceTree = "<group>"; };
-		1150061524F9F1BE00F9D9F2 /* photoAlbum1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoAlbum1.png; sourceTree = "<group>"; };
 		1153C89224DF313300ADCBCC /* VirtualTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1153C89524DF313300ADCBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1153C89724DF313300ADCBCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +82,7 @@
 		11D74FD524FB5ACA0004F0F7 /* WelcomePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WelcomePage.png; path = ../../../../screenshots/WelcomePage.png; sourceTree = "<group>"; };
 		11D74FD924FB5B070004F0F7 /* removePin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = removePin.png; path = ../../../../screenshots/removePin.png; sourceTree = "<group>"; };
 		11D74FDB24FB5B150004F0F7 /* mapPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapPage.png; path = ../../../../screenshots/mapPage.png; sourceTree = "<group>"; };
+		11D74FDD24FB5CAB0004F0F7 /* photoAlbum1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photoAlbum1.png; path = ../../../../../.Trash/photoAlbum1.png; sourceTree = "<group>"; };
 		520965C748F5C7EA3F1C075A /* Pods-VirtualTouristTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTouristTests.debug.xcconfig"; path = "Target Support Files/Pods-VirtualTouristTests/Pods-VirtualTouristTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7BBED1B4D7D91E021183995 /* Pods_VirtualTourist_VirtualTouristUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualTourist_VirtualTouristUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F23A6D96C7534EA579557B /* Pods-VirtualTouristTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTouristTests.release.xcconfig"; path = "Target Support Files/Pods-VirtualTouristTests/Pods-VirtualTouristTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 				11D74FD524FB5ACA0004F0F7 /* WelcomePage.png */,
 				11D74FD924FB5B070004F0F7 /* removePin.png */,
 				11D74FDB24FB5B150004F0F7 /* mapPage.png */,
-				1150061524F9F1BE00F9D9F2 /* photoAlbum1.png */,
+				11D74FDD24FB5CAB0004F0F7 /* photoAlbum1.png */,
 				1150061324F9F1BD00F9D9F2 /* photoAlbum2.png */,
 			);
 			path = images;
@@ -367,7 +367,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1150061824F9F1BE00F9D9F2 /* photoAlbum1.png in Resources */,
 				11D74FD024FB53980004F0F7 /* SplashLaunchScreen.storyboard in Resources */,
 				1153C8A224DF313C00ADCBCC /* Assets.xcassets in Resources */,
 				1150061624F9F1BE00F9D9F2 /* photoAlbum2.png in Resources */,
@@ -381,6 +380,7 @@
 			files = (
 				11D74FDC24FB5B150004F0F7 /* mapPage.png in Resources */,
 				11D74FD624FB5ACA0004F0F7 /* WelcomePage.png in Resources */,
+				11D74FDE24FB5CAB0004F0F7 /* photoAlbum1.png in Resources */,
 				11D74FDA24FB5B070004F0F7 /* removePin.png in Resources */,
 				11D74FD224FB58A90004F0F7 /* README.md in Resources */,
 				11D74FD424FB5AB60004F0F7 /* splashView.png in Resources */,
