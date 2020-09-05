@@ -1,5 +1,5 @@
 # Virtual-tourist
-Virtual Tourist or MapN in an app that shows a map with ability to serach for a place or press anywhere on the map to add the pin and enjoy watching amazing photos of the tapped location - pin!
+Virtual Tourist or MapN in an app that shows a map with ability to search for a place or press anywhere on the map to add the pin and enjoy watching amazing photos of the tapped location - pin!
 You can also delete a pin from your map.
 
 This project is build for my iOS Nanodegree program - Udacity
